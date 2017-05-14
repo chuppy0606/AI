@@ -1,10 +1,10 @@
 AI - naive bayes algorithm for spam filter
 ===========================================
 Due 2017.05.15
-*dictionary - A word to distinguish between spam and ham
-*prior - The probability that it was previously spam, the probability that it was not previously spam
-*spam - The probability that a word is spam
-*ham - The probability that a word is ham
+-dictionary - A word to distinguish between spam and ham
+-prior - The probability that it was previously spam, the probability that it was not previously spam
+-spam - The probability that a word is spam
+-ham - The probability that a word is ham
 ```C
 	char* dictionary[20] = { "artificial", "bug", "classification", "computer", "data", "fat", "human",
 		"interface", "language", "loan", "man", "message", "promotion", "replica",
