@@ -2,7 +2,7 @@ AI - naive bayes algorithm for spam filter
 ===========================================
 
 ~~~
-```C++
+```C
 #include <stdio.h>
 #include <string.h>
 
