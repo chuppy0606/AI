@@ -24,4 +24,9 @@ char* Doc1[20] = { "computer", "system", "programming", "Java", "video", "networ
 	char* Doc3[20] = { "sale", "user", "promotion" };
 	char* Doc4[20] = { "man", "machine", "interface", "system", "video" };
 	char* Doc5[20] = { "reply", "this", "message", "system", "loan", "without", "credit" };
-	````
+	```
+	
+So we try to get the probability that the document is spam or ham based on the dictionary word.
+I refer to the following link.
+
+<http://cinema4dr12.tistory.com/entry/Artificial-Intelligence-Machine-Learning-Naive-Bayes-Spam-Filter>
