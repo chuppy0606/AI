@@ -16,3 +16,12 @@ Due 2017.05.15
 	//ham인 확률
 	double ham[20] = { 0.2, 0.2, 0.1, 0.4, 0.2, 0.05, 0.2, 0.1, 0.2, 0.01, 0.1, 0.1, 0.01, 0.02, 0.1, 0.2, 0.3, 0.2, 0.01, 0.1 };
   ```
+
+We need to check this five documents for spam or ham.
+```C
+char* Doc1[20] = { "computer", "system", "programming", "Java", "video", "network" };
+	char* Doc2[20] = { "viagra", "replica", "woman", "artificial", "internet" };
+	char* Doc3[20] = { "sale", "user", "promotion" };
+	char* Doc4[20] = { "man", "machine", "interface", "system", "video" };
+	char* Doc5[20] = { "reply", "this", "message", "system", "loan", "without", "credit" };
+	````
