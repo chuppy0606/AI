@@ -1,10 +1,12 @@
 AI - naive bayes algorithm for spam filter
 ===========================================
 Due 2017.05.15
+
 * dictionary - A word to distinguish between spam and ham
 * prior - The probability that it was previously spam, the probability that it was not previously spam
 * spam - The probability that a word is spam
 * ham - The probability that a word is ham
+
 ```C
 	char* dictionary[20] = { "artificial", "bug", "classification", "computer", "data", "fat", "human",
 		"interface", "language", "loan", "man", "message", "promotion", "replica",
@@ -18,15 +20,16 @@ Due 2017.05.15
   ```
 
 We need to check this five documents for spam or ham.
+
 ```C
 char* Doc1[20] = { "computer", "system", "programming", "Java", "video", "network" };
 	char* Doc2[20] = { "viagra", "replica", "woman", "artificial", "internet" };
 	char* Doc3[20] = { "sale", "user", "promotion" };
 	char* Doc4[20] = { "man", "machine", "interface", "system", "video" };
 	char* Doc5[20] = { "reply", "this", "message", "system", "loan", "without", "credit" };
-	```
-	
-So we try to get the probability that the document is spam or ham based on the dictionary word.
-I refer to the following link.
+```
 
+So we try to get the probability that the document is spam or ham based on the dictionary word.
+
+* refer:
 <http://cinema4dr12.tistory.com/entry/Artificial-Intelligence-Machine-Learning-Naive-Bayes-Spam-Filter>
