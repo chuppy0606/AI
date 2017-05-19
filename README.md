@@ -1,4 +1,4 @@
-AI - naive bayes algorithm for spam filter
+ConsoleApplication7 - naive bayes algorithm for spam filter
 ===========================================
 Due 2017.05.15
 
